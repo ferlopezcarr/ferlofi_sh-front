@@ -1,0 +1,20 @@
+<ng-container *ngIf="this.theme === Theme.light; else darkTheme">
+  <button
+    mat-icon-button
+    class="dark-theme-button"
+    aria-label="Theme toggle button"
+    (click)="changeTheme(Theme.dark)"
+  >
+    <mat-icon>dark_mode</mat-icon>
+  </button>
+</ng-container>
+<ng-template #darkTheme>
+  <button
+    mat-icon-button
+    class="light-theme-button"
+    aria-label="Theme toggle button"
+    (click)="changeTheme(Theme.light)"
+  >
+    <mat-icon>light_mode</mat-icon>
+  </button>
+</ng-template>

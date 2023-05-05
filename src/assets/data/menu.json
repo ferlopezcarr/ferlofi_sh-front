@@ -1,0 +1,27 @@
+[
+  {
+    "id": "profile",
+    "label": "Profile",
+    "route": "/profile"
+  },
+  {
+    "id": "roadmap",
+    "label": "Roadmap",
+    "route": "/roadmap"
+  },
+  {
+    "id": "projects",
+    "label": "Projects",
+    "route": "/projects"
+  },
+  {
+    "id": "resources",
+    "label": "Resources",
+    "route": "/resources"
+  },
+  {
+    "id": "blog",
+    "label": "Blog",
+    "route": "/blog"
+  }
+]

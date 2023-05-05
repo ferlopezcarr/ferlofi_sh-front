@@ -1,0 +1,22 @@
+.sidenav-container {
+  height: 100%;
+  .sidenav-menu {
+    display: none;
+  }
+}
+
+app-download-curriculum-button {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+@media (max-width: 500px) {
+  .sidenav-container {
+    .sidenav-menu {
+      display: block;
+      width: 100%;
+    }
+  }
+}
